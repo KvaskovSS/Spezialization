@@ -26,12 +26,13 @@ void fillArr(string[] arr)
 
 void newArr(string[] arr)
 {
+    Console.WriteLine("");
     Console.WriteLine("Новый массив");
 
     int j = 0;
     for(int i = 0; i < arr.Length; i++)
     {
-        if(arr[i].Length < 3)
+        if(arr[i].Length < 4)
         {
             j++;
         }
@@ -42,7 +43,7 @@ void newArr(string[] arr)
 
     for(int i = 0; i < arr.Length; i++)
     {
-        if(arr[i].Length < 3)
+        if(arr[i].Length < 4)
         {
             newArrString[j] = arr[i];
             j++;
